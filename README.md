@@ -1,6 +1,6 @@
 # DSA_in_Python
 Data structures and algorithms (DSA) in Python are fundamental concepts for writing efficient, optimized code and solving complex problems. Python offers both built-in data structures and the ability to implement user-defined structures and various algorithms. 
-Data Structures in Python
+##Data Structures in Python
 Data structures are ways to organize and store data to be used efficiently. Python provides several built-in types and allows for the implementation of others. 
 Built-in Data Structures
 Lists: Dynamic arrays that can store elements of different data types in an ordered sequence. They are mutable (changeable).
@@ -14,7 +14,7 @@ Linked Lists: A linear data structure where elements (nodes) are linked together
 Trees: Non-linear data structures organized hierarchically, used in areas like databases and file systems. A key variant is the Binary Search Tree (BST).
 Graphs: Non-linear data structures consisting of a finite set of vertices (nodes) and edges (connections), used for modeling networks, paths in Google Maps, etc..
 Heaps: A complete binary tree that satisfies the heap property, commonly used to implement priority queues. 
-Algorithms in Python
+##Algorithms in Python
 Algorithms are step-by-step procedures for solving a problem. Common categories include: 
 Searching: Finding specific elements. Examples are linear search for unsorted data and binary search for sorted data.
 Sorting: Arranging elements in order. Algorithms range from simpler ones like bubble sort to more efficient ones like merge sort and quick sort. Python's sorted() uses Timsort.
