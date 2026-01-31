@@ -1,0 +1,21 @@
+# (Multi-level Filtering & Aggregation)
+
+# Bank → Customers → Accounts → Transactions
+bank = [
+    [
+        ["Alice", [200, -50, 300, -20]],
+        ["Bob", [-100, -200, 400]]
+    ],
+    [
+        ["Clara", [1000, -300, -200]],
+        ["Dan", [500, -100, -50]]
+    ]
+]
+
+# Total balance per customer
+for branch in bank:
+    for customer in branch:
+        name = customer[0]
+        transactions = customer[1]
+        balance = sum(transactions)
+        print(name, "balance =", balance)
