@@ -1,0 +1,17 @@
+# 3D Array RGB Pixel Grid
+image = [
+    [[255, 0, 0], [0, 255, 0], [0, 0, 255]],
+    [[125, 125, 125], [60, 60, 60], [200, 200, 200]],
+    [[10, 20, 30], [40, 50, 60], [70, 80, 90]]
+]
+
+# Convert to grayscale using weighted average
+gray_image = []
+for row in image:
+    gray_row = []
+    for pixel in row:
+        gray = int(0.299*pixel[0] + 0.587*pixel[1] + 0.114*pixel[2])
+        gray_row.append(gray)
+    gray_image.append(gray_row)
+
+print(gray_image)
