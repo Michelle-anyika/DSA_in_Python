@@ -1,0 +1,31 @@
+# (4D Spatial Array)
+# World → Regions → Zones → Tiles
+world = [
+    [
+        [
+            ["grass", "tree", "water"],
+            ["sand", "sand", "water"]
+        ],
+        [
+            ["rock", "rock", "lava"],
+            ["grass", "grass", "tree"]
+        ]
+    ],
+    [
+        [
+            ["snow", "ice", "ice"],
+            ["snow", "rock", "ice"]
+        ]
+    ]
+]
+
+# Count all "water" tiles
+count = 0
+for continent in world:
+    for region in continent:
+        for zone in region:
+            for tile in zone:
+                if tile == "water":
+                    count += 1
+
+print("Water tiles:", count)
