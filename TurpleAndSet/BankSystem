@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 # Tuple of bank branches (fixed data)
 branches = ("Kigali", "Musanze", "Huye", "Rubavu")
 
