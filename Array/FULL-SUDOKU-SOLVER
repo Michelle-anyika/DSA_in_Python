@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # array-based, hard-level of Sudoku using numpy.
 import numpy as np
 
