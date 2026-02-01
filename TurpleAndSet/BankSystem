@@ -1,0 +1,50 @@
+# Tuple of bank branches (fixed data)
+branches = ("Kigali", "Musanze", "Huye", "Rubavu")
+
+# Tuple of account types (fixed data)
+account_types = ("Savings", "Current", "Business")
+
+# Set of registered customers (no duplicates)
+customers = {"Alice", "Bob", "Clara", "Dan"}
+
+# Set of customers who have loans
+loan_customers = {"Bob", "Dan"}
+
+print("Bank Branches:", branches)
+print("Account Types:", account_types)
+print("All Customers:", customers)
+print("Loan Customers:", loan_customers)
+
+# Add a new customer
+customers.add("Eva")
+
+# Remove a customer
+customers.remove("Clara")
+
+print("\nUpdated Customers:", customers)
+
+# Check if someone is a customer
+print("\nIs Alice a customer?", "Alice" in customers)
+print("Is John a customer?", "John" in customers)
+
+# Customers who have both account and loan
+both_account_and_loan = customers.intersection(loan_customers)
+print("\nCustomers with accounts AND loans:", both_account_and_loan)
+
+# Customers with accounts but NO loans
+no_loan_customers = customers.difference(loan_customers)
+print("Customers with accounts but no loans:", no_loan_customers)
+
+# Customers who have loan OR account
+all_active_customers = customers.union(loan_customers)
+print("All active customers:", all_active_customers)
+
+# Loop through tuple of branches
+print("\nBank Branches:")
+for branch in branches:
+    print(branch)
+
+# Loop through customers
+print("\nCustomer list:")
+for customer in customers:
+    print(customer)
