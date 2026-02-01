@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 # Tuple of available products in the shop (fixed list)
 products = (
     ("Rice", 1200),
