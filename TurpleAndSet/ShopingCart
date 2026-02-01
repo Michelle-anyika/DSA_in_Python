@@ -1,0 +1,45 @@
+# Tuple of available products in the shop (fixed list)
+products = (
+    ("Rice", 1200),
+    ("Sugar", 1500),
+    ("Milk", 1000),
+    ("Bread", 800),
+    ("Eggs", 2000),
+    ("Soap", 500)
+)
+
+# Set of items added to the shopping cart (no duplicates allowed)
+cart = set()
+
+# Display products
+print("Available products:")
+for item in products:
+    print(item[0], "-", item[1], "RWF")
+
+# Add items to cart
+cart.add("Rice")
+cart.add("Milk")
+cart.add("Bread")
+cart.add("Rice")   # duplicate, will be ignored
+
+print("\nCart items:", cart)
+
+# Remove item
+cart.remove("Bread")
+
+print("\nCart after removing Bread:", cart)
+
+# Check if item is in cart
+print("\nIs Milk in cart?", "Milk" in cart)
+print("Is Eggs in cart?", "Eggs" in cart)
+
+# Calculate total price
+total = 0
+for item in products:
+    name = item[0]
+    price = item[1]
+
+    if name in cart:
+        total += price
+
+print("\nTotal price:", total, "RWF")
