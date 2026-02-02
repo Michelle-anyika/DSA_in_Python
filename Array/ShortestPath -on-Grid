@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # (BFS using arrays)
 grid = [
     [0,0,1,0],
