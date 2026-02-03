@@ -1,12 +1,12 @@
-# 🎓 Study Roadmap: Searching & Sorting in Python
+#  Study Roadmap: Searching & Sorting in Python
 
 This repository serves as a conceptual guide to mastering data organization and retrieval. The goal is to move from basic logic to high-performance algorithmic thinking.
 
 ---
 
-## 🗺️ Learning Path Overview
+##  Learning Path Overview
 
-### 📍 Unit 1: The Search Foundation
+###  Unit 1: The Search Foundation
 *Understanding how to find needles in haystacks.*
 
 * **Linear Search:** * The "Brute Force" logic.
@@ -18,7 +18,7 @@ This repository serves as a conceptual guide to mastering data organization and 
 
 ---
 
-### 📍 Unit 2: Simple Sorting (Quadratic Logic)
+###  Unit 2: Simple Sorting (Quadratic Logic)
 *Building the intuition for element swapping and positioning.*
 
 * **Bubble Sort:** * Concept: Sinking/Floating values via adjacent comparisons.
@@ -29,7 +29,7 @@ This repository serves as a conceptual guide to mastering data organization and 
 
 ---
 
-### 📍 Unit 3: Advanced Sorting (Efficient Logic)
+###  Unit 3: Advanced Sorting (Efficient Logic)
 *Mastering recursive structures and high-speed processing.*
 
 * **Merge Sort:** * Concept: Recursive splitting and the "Merge" operation.
@@ -39,7 +39,7 @@ This repository serves as a conceptual guide to mastering data organization and 
 
 ---
 
-### 📍 Unit 4: Performance Analysis & Complexity
+###  Unit 4: Performance Analysis & Complexity
 *Learning to measure "Better."*
 
 * **Big O Notation:** * Visualizing $O(n)$ vs $O(\log n)$ vs $O(n^2)$.
@@ -49,7 +49,7 @@ This repository serves as a conceptual guide to mastering data organization and 
 
 ---
 
-## 📊 Comparison Table
+##  Comparison Table
 
 | Learning Topic | Logic Style | Efficiency Level | Best Use Case |
 | :--- | :--- | :--- | :--- |
