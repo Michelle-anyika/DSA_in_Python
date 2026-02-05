@@ -61,7 +61,7 @@ This repository serves as a conceptual guide to mastering data organization and 
 
 ---
 
-## 🏁 Success Criteria
+## Success Criteria
 By the end of this study, you should be able to:
 1. Identify which algorithm is best for a specific dataset size.
 2. Explain the difference between $O(n \log n)$ and $O(n^2)$.
